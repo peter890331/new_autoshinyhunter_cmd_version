@@ -35,9 +35,29 @@ Equipment and Software Requirements:
 ## How to use, For users
 For users, you can directly download the final version in Releases, it contains a direct executable exe file, and can run it directly after setting some parameters.  
 ### Steps:
-   1. Download the final version files in Releases, unzip each zip file into folders, then place the unziped folders with the exe file and parameter settings txt file in the same folder you created.
-   2. Download scrcpy and unzip it, then place in the the same folder you created too.
-   3. 
+   1. Download the final version files in Releases, unzip each zip file into folders, then place the unziped folders with the exe file and parameter_settings txt file in the same folder you created.
+   2. Download scrcpy and unzip it, then place in the the same folder you created too, the folder will look like this:  
+      <img src= "https://github.com/peter890331/new_autoshinyhunter/assets/91075744/279eae10-a043-4d75-b05d-590532f43ce1" width="200px">
+      
+   3. Setup parameters in the parameter_settings txt file, the descriptions of the parameters are as follows:
+      1. channelid  
+         The ID of the Discord channel used to broadcast the iv100 pokémons. Go to the Pokedex100 server in web version of Discord, and there is usually a channel called 100communitcy, or a special channel on community days, and press F12 on the browser after selecting the channel, then you can find a number string in the Network - messages?limit=50 - Request URL, the number is channelid, paste it in the parameter_settings txt file.
+      2. L_wanted
+         L_wanted means the minimum level of the Pokémon you want to catch, if set to 0, it will catch all levels of pokémons, if set to 30, it will only catch pokémons above the level 30.
+      3. more_check
+         more_check means the number of times you want to confirm whether it is a shiny pokémon or not, it is recommended to depend on the jumping frequency of the pokémon.
+      4. check_delay
+      5. wifi_delay
+      6. check_position
+      7. male_and_female
+      8. specific_pokemon
+      9. shiny_symbol
+      10. phone_name
+      11. DC_headers
+      12. Pokedex100_header_User_Agent
+      13. Pokedex100_header_Cookie
+
+
  
 ## Make updates, For Developers
 
