@@ -34,7 +34,7 @@ Equipment and Software Requirements:
 
 ## How to use, For users
 For users, you can directly download the final version in Releases, it contains a direct executable exe file, and can run it directly after setting some parameters.  
-- ### Steps:
+### Steps:
    1. Download the final version files in Releases, unzip each zip file into folders, then place the unziped folders with the exe file and parameter settings txt file in the same folder you created.
    2. Download scrcpy and unzip it, then place in the the same folder you created too.
    3. 
