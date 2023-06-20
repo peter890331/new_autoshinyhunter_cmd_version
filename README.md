@@ -22,15 +22,23 @@ Equipment and Software Requirements:
   - scrcpy ([Github][2], [scrcpy-win64-v2.0 download link][3]), This application mirrors Android devices connected via USB or over TCP/IP, and allows to control the device with the keyboard and the mouse of the computer.
   - NemoADB by PokeNemo ([Official Website][4]), NemoADB is a GUI program useful to speed up your shundo snipe if you have an Android device with GPS Joystick and a Windows PC.
   - A Windows computer.
+  - A Discord ([Official Website][6]) account that has joined the Pokedex100 ([Official Website][7]) server.
 
 [1]: https://play.google.com/store/apps/details?id=com.theappninjas.fakegpsjoystick
 [2]: https://github.com/Genymobile/scrcpy
 [3]: https://github.com/Genymobile/scrcpy/releases/download/v2.0/scrcpy-win64-v2.0.zip
 [4]: https://www.pokenemo.com/nemoadb/
 [5]: https://github.com/openatx/uiautomator2
+[6]: https://discord.com/
+[7]: https://pokedex100.com/
 
 ## How to use, For users
-
+For users, you can directly download the final version in Releases, it contains a direct executable exe file, and can run it directly after setting some parameters.  
+- ### Steps:
+   1. Download the final version files in Releases, unzip each zip file into folders, then place the unziped folders with the exe file and parameter settings txt file in the same folder you created.
+   2. Download scrcpy and unzip it, then place in the the same folder you created too.
+   3. 
+ 
 ## Make updates, For Developers
 
 ### ❗ 再次警告：僅以此練習程式編寫，請勿在遊戲中使用外掛，否則後果自負！本人對此內容不負任何法律責任。 ❗    
