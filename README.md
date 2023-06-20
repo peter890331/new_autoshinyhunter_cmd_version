@@ -18,7 +18,7 @@ In Pokémon Go, beyond your pokémon’s CP (Combat Power), all your caught pok�
 This cheat script can fully automatically send your game position to any location in the world where the specified iv100 pokémon appear, and click on the pokémon to determine whether it is a shiny, if not, then continue to try in the whole world, if yes, stop the script and wait for manual capture.    
 
 Equipment and Software Requirements:
-  - A rooted Android phone with GPS JoyStick ([Google Play][1]) installed "IN THE SYSTEM", and install uiautomator2 ([Github][5]) services such as ATX-agent (may not be necessary for the new version).
+  - A rooted Android phone with GPS JoyStick ([Google Play][1]) installed **IN THE SYSTEM**, and install uiautomator2 ([Github][5]) services such as ATX-agent (may not be necessary for the new version).
   - scrcpy ([Github][2], [scrcpy-win64-v2.0 download link][3]), This application mirrors Android devices connected via USB or over TCP/IP, and allows to control the device with the keyboard and the mouse of the computer.
   - NemoADB by PokeNemo ([Official Website][4]), NemoADB is a GUI program useful to speed up your shundo snipe if you have an Android device with GPS Joystick and a Windows PC.
   - A Windows computer.
@@ -40,22 +40,22 @@ For users, you can directly download the final version in Releases, it contains 
       <img src= "https://github.com/peter890331/new_autoshinyhunter/assets/91075744/279eae10-a043-4d75-b05d-590532f43ce1" width="200px">
       
    3. Setup parameters in the parameter_settings txt file, the descriptions of the parameters are as follows:
-      1. channelid  
-         The ID of the Discord channel used to broadcast the iv100 pokémons. Go to the Pokedex100 server in web version of Discord, and there is usually a channel called 100communitcy, or a special channel on community days, and press F12 on the browser after selecting the channel, then you can find a number string in the Network - messages?limit=50 - Request URL, the number is channelid, paste it in the parameter_settings txt file.
-      2. L_wanted
-         L_wanted means the minimum level of the Pokémon you want to catch, if set to 0, it will catch all levels of pokémons, if set to 30, it will only catch pokémons above the level 30.
-      3. more_check
-         more_check means the number of times you want to confirm whether it is a shiny pokémon or not, it is recommended to depend on the jumping frequency of the pokémon.
-      4. check_delay
-      5. wifi_delay
-      6. check_position
-      7. male_and_female
-      8. specific_pokemon
-      9. shiny_symbol
-      10. phone_name
-      11. DC_headers
-      12. Pokedex100_header_User_Agent
-      13. Pokedex100_header_Cookie
+      1. `channelid`  
+         The ID of the Discord channel used to broadcast the iv100 pokémons. Go to the Pokedex100 server in web version of Discord, and there is usually a channel called 100communitcy, or a special channel on community days, and press F12 on the browser after selecting the channel, then you can find a number string in the Network - messages?limit=50 - Request URL, the number is `channelid`, paste it in the parameter_settings txt file.
+      2. `L_wanted`  
+         `L_wanted` means the minimum level of the Pokémon you want to catch, if set to 0, it will catch all levels of pokémons, if set to 30, it will only catch pokémons above the level 30.
+      3. `more_check`  
+         `more_check` means the number of times you want to confirm whether it is a shiny pokémon or not, it is recommended to depend on the jumping frequency of the pokémon.
+      4. `check_delay`  
+      5. `wifi_delay`  
+      6. `check_position`  
+      7. `male_and_female`  
+      8. `specific_pokemon`  
+      9. `shiny_symbol`  
+      10. `phone_name`  
+      11. `DC_headers`  
+      12. `Pokedex100_header_User_Agent`  
+      13. `Pokedex100_header_Cookie`  
 
 
  
