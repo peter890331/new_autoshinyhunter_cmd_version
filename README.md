@@ -2,7 +2,7 @@
 new_autoshinyhunter_v3.0, made by Peter Yu.  
 
 > 一個在Pokémon GO中自動點擊色違且iv100的寶可夢的外掛腳本。    
-> A game bot script that automatically filters and only clicks to those pokémons that is shiny and iv100 in Pokémon GO.
+> A game bot script that automatically clicks and only filters to those pokémons that is shiny and iv100 in Pokémon GO.
 >
 > I am a Taiwanese, so some instructions and parameters in the program are described in traditional Chinese, Taiwan No.1!!!!!
 
