@@ -35,7 +35,7 @@ Equipment and Software Requirements:
 ## How to use, For users
 For users, you can directly download the final version in Releases, it contains a direct executable exe file, and can run it directly after setting some parameters.  
 ### Steps:
-   1. Download the final version files in Releases, unzip each zip file into folders, then place the unziped folders with the exe file and parameter_settings txt file in the same folder you created.
+   1. Download the final version files in Releases, unzip each zip file into folders, then place the unziped folders with the new_autoshinyhunter_v3.0.exe file and parameter_settings.txt file in the same folder you created, and for those who are not playing game in traditional Chinese, some of the template screenshots in the template folder will need to be re-screenshot in your game language.
    2. Download scrcpy and unzip it, then place in the the same folder you created too, the folder will look like this:  
       <img src= "https://github.com/peter890331/new_autoshinyhunter/assets/91075744/279eae10-a043-4d75-b05d-590532f43ce1" width="200px">
       
@@ -90,7 +90,7 @@ For users, you can directly download the final version in Releases, it contains 
          
    4. Run new_autoshinyhunter_v3.0.exe file, the descriptions when runnig as follows:
       1. - 請確認parameter_setting.txt參數設定，完成請按下Enter鍵
-         - Please confirm parameters setting of parameter_setting.txt, and press Enter to continue.
+         - Please confirm parameters setting of parameter_setting.txt file, and press Enter to continue.
       2. - 請手動開啟NemoADB.exe，並可最小化其視窗，完成請按下Enter鍵
          - Please open NemoADB.exe in NemoADB folder manually, and can minimize its window, and press Enter to continue.
       3. - 請將手機啟用AtxAgent，開啟GPS Joystick傳送至任意位置並隱藏，開啟Pokemon Go並確認遊戲視角與記事本設定相同，完成請按下Enter鍵
@@ -119,7 +119,8 @@ For users, you can directly download the final version in Releases, it contains 
  
 ## Make updates, For Developers or the future ?
  - This script use my current phone (RMX2111) for testing, if using different brand or type of phones, when clicking on the screen, may be due to differences in screen size or resolution, resulting in a distorted click position, so in the future, it may be possible to add functions to adapt to different screens.
- - If there are updates to this script in the future, can use "PyInstaller" to package the .py file into an .exe file.
+ - Now the script uses template images in the template folder for image recognition to determine which screen it is on, but sometimes when click on the wrong target, the script will still continue, for example, when click on Team Rockets, for unknown reasons, it does not detect, no return to the map as soon as possible may lose time, this will be a weakness that can be rethought to improve.
+ - If there are updates to this script in the future, can use "PyInstaller" to package the .py file into an .exe file, use "pyinstaller -F XXX.py" command.
 
 ## Some screen recording and screenshots when using
 These two videos are the gains of my actual use for a period of time, as evidenced by the videos.
@@ -154,8 +155,10 @@ Here are some command steps can use to test the Wifi connection mode:
 4. scrcpy -t -b2M -m800
    
 Then here are two useful shortcuts to turn off the phone screen while connected:
-- Turn device screen off (keep mirroring)	MOD+o
-- Turn device screen on	MOD+Shift+o
+- Turn device screen off (keep mirroring):	MOD+o
+- Turn device screen on:	MOD+Shift+o  
+  (MOD key is usually Alt)
+  
 And a Chinese teaching video on [Youtube][8].
 
 [8]: https://youtu.be/WkTd5OxDZ-8
