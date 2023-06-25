@@ -4,7 +4,7 @@ new_autoshinyhunter_v3.0, made by Peter Yu.
 > 一個在Pokémon GO中自動點擊色違且iv100的寶可夢的外掛腳本。    
 > A game bot script that automatically clicks and only filters to those pokémons that is shiny and iv100 in Pokémon GO.
 >
-> I am a Taiwanese, so some instructions and parameters in the program are described in traditional Chinese, Taiwan No.1!!!!!
+> I am a Taiwanese, so some instructions and description of parameters in the program are described in traditional Chinese, Taiwan No.1!!!!!
 
 ### ❗ 警告：僅以此練習程式編寫，請勿在遊戲中使用外掛，否則後果自負！本人對此內容不負任何法律責任。 ❗    
 ### ❗ WARNING: Practice programming only, please do not use it to cheat on the game!     
@@ -18,11 +18,11 @@ In Pokémon Go, beyond your pokémon’s CP (Combat Power), all your caught pok�
 This game bot script can fully automatically send your game position to any location in the world where the specified iv100 pokémon appear, and click on the pokémon to determine whether it is a shiny, if not, then continue to try in the whole world, if yes, stop the script and wait for manual capture.    
 
 Equipment and Software Requirements:
-  - A rooted Android phone with GPS JoyStick ([Google Play][1]) installed **IN THE SYSTEM**, and install uiautomator2 ([Github][5]) services such as ATX-agent (may not be necessary for the new version).
-  - scrcpy ([Github][2], [scrcpy-win64-v2.0 download link][3]), this application mirrors Android devices connected via USB or over TCP/IP, and allows to control the device with the keyboard and the mouse of the computer.
-  - NemoADB by PokeNemo ([Official Website][4]), NemoADB is a GUI program useful to speed up your shundo snipe if you have an Android device with GPS Joystick and a Windows PC.
-  - A Windows computer.
-  - A Discord ([Official Website][6]) account that has joined the Pokedex100 ([Official Website][7]) server, Pokedex100 provides pokémon coordinates all over 30 countries, it used to snipe iv100 pokémons.
+  1. A rooted Android phone with GPS JoyStick ([Google Play][1]) installed **IN THE SYSTEM**, and install uiautomator2 ([Github][5]) services such as ATX-agent (may not be necessary for the new version).
+  2. scrcpy ([Github][2], [scrcpy-win64-v2.0 download link][3]), this application mirrors Android devices connected via USB or over TCP/IP, and allows to control the device with the keyboard and the mouse of the computer.
+  3. NemoADB by PokeNemo ([Official Website][4]), NemoADB is a GUI program useful to speed up your shundo snipe if you have an Android device with GPS Joystick and a Windows PC.
+  4. A Windows computer.
+  5. A Discord ([Official Website][6]) account that has joined the Pokedex100 ([Official Website][7]) server, Pokedex100 provides pokémon coordinates all over 30 countries, it used to snipe iv100 pokémons.
 
 [1]: https://play.google.com/store/apps/details?id=com.theappninjas.fakegpsjoystick
 [2]: https://github.com/Genymobile/scrcpy
@@ -39,24 +39,82 @@ For users, you can directly download the final version in Releases, it contains 
    2. Download scrcpy and unzip it, then place in the the same folder you created too, the folder will look like this:  
       <img src= "https://github.com/peter890331/new_autoshinyhunter/assets/91075744/279eae10-a043-4d75-b05d-590532f43ce1" width="200px">
       
-   3. Setup parameters in the parameter_settings txt file, the descriptions of the parameters are as follows:
+   3. Setup parameters in the parameter_settings.txt file, the descriptions of the parameters are as follows:
       1. `channelid`  
-         The ID of the Discord channel used to broadcast the iv100 pokémons. Go to the Pokedex100 server in web version of Discord, and there is usually a channel called 100communitcy, or a special channel on community days, and press F12 on the browser after selecting the channel, then you can find a number string in the Network - messages?limit=50 - Request URL, the number is `channelid`, paste it in the parameter_settings txt file.
+         - 選擇欲爬蟲的DC Pokedex頻道id，在網頁版DC的F12 - Network - message?limit=50 - Request URl  
+         - The ID of the Discord channel used to broadcast the iv100 pokémons. Go to the Pokedex100 server in web version of Discord, and there is usually a channel called 100communitcy, or a special channel on community days, and press F12 on the browser after selecting the channel, then you can find a number string in the Network - messages?limit=50 - Request URL, the number is `channelid` (if you don't find it, press F5 and look again).
       2. `L_wanted`  
-         `L_wanted` means the minimum level of the Pokémon you want to catch, if set to 0, it will catch all levels of pokémons, if set to 30, it will only catch pokémons above the level 30.
+         - 想要抓的寶可夢至少等級  
+         - `L_wanted` means the minimum level of pokémons you want to catch, if set to 0, it will catch all levels of pokémons, if set to 30, it will only catch pokémons above the level 30.
       3. `more_check`  
-         `more_check` means the number of times you want to confirm whether it is a shiny pokémon or not, it is recommended to depend on the jumping frequency of the pokémon.
+         - 想要多確認是不是色違的次數(建議取決於該寶可夢的跳躍頻率)  
+         - `more_check` means the number of times you want to confirm whether it is a shiny pokémon or not, it is recommended to depend on the jumping frequency of the pokémon.
       4. `check_delay`  
+         - 多確認是否色違的間隔(建議取決於該寶可夢的上下移動頻率)  
+         - `check_delay` means the time interval to check if it is a shiny pokémon, it is recommended to depend on the up and down movement frequency of the pokémon.
       5. `wifi_delay`  
-      6. `check_position`  
-      7. `male_and_female`  
-      8. `specific_pokemon`  
-      9. `shiny_symbol`  
-      10. `phone_name`  
-      11. `DC_headers`  
-      12. `Pokedex100_header_User_Agent`  
-      13. `Pokedex100_header_Cookie`  
+         - 使用Wifi連接模式時要多等待的延遲時間(取決於網路速度)  
+         - `wifi_delay` means the time delay when using Wifi connection mode, it is recommended to depend on Wifi speed.
+      6. `check_position`
+         - 遊戲視角畫面最大化時設置為0；遊戲視角畫面最小化時則設置為1(適合會飛行，不在腳邊的寶可夢，ex.飛翔皮卡丘)
+         - `check_position` means the binary value that depends on the game perspective, set to 0 when the game perspective is maximized; set to 1 when the game perspective is minimized (suitable for those pokémons who will fly or not beside the feet, ex. Flying Pikachu), the maximized game perspective looks like:  
+           <img src= "https://github.com/peter890331/new_autoshinyhunter/assets/91075744/08d4bced-86ba-4afc-a688-759acb8ecaf8" width="200px">
 
+           , and the minimized game perspective looks like:  
+           <img src= "https://github.com/peter890331/new_autoshinyhunter/assets/91075744/b48b0262-ea40-45aa-be0d-902e4078aaeb" width="200px">
+
+      7. `male_and_female`
+         - 若欲捕捉特定性別的寶可夢，公的設置為1；母的設置為0；若不指定，則空白 
+         - `male_and_female` means the value that depends on the specific gender of pokémons you want to catch, male set to 1; female set to 0; if not specified, then blank.
+      8. `specific_pokemon`
+         - 若DC Pokedex頻道中含有多種寶可夢但只想抓取特定幾種時，打上寶可夢名字（寶可夢間以空白鍵相隔，ex：=Cranidos Shieldon Larvitar）；若無，則空白
+         - If the channel of Pokedex100 server contains multiple pokémons but you only want to catch a few specific of them, type the name of those specific pokémons, separated by blank keys, ex：=Cranidos Shieldon Larvitar; if not specified, then blank.
+      9. `shiny_symbol`
+          - 要抓取的寶可夢在DC Pokedex頻道中是否正常擁有色違符號，若有（通常都有）則設置為1；若包含任何一種要欲抓取的特定寶可夢無色違符號，則設置為0
+          - `shiny_symbol` means the binary value that depends on if pokémons to be captured in the channel of Pokedex100 server has the shiny symbol, if yes (usually available) then set to 1;  if it contains any one of the specific pokemon you want to capture, but without shiny symbol, then set to 0, the shiny symbol look like this: <img src= "https://github.com/peter890331/new_autoshinyhunter/assets/91075744/0a28cbf4-0751-4421-afe9-e3662381cc1e" width="20px">.
+      10. `phone_name`
+          - 手機在scrcpy的視窗名
+          - The window name of your phone in scrcpy. It is recommended that run scrcpy once before setting this parameter to determine the window name, the way to run scrcpy is: after enable USB debugging on the phone and connecting to the computer with USB, run scrcpy.exe directly.
+      11. `DC_headers`
+          - 網頁版DC的授權碼，在網頁版DC的F12 - Network - message?limit=50 - authorization
+          - The authorization code of the web version of Discord. Go to the Pokedex100 server in web version of Discord, then select the channel of i. `channelid`, and press F12 on the browser after selecting the channel, then you can find the string in the Network - messages?limit=50 - authorization, the string is `DC_headers` (if you don't find it, press F5 and look again).
+      12. `Pokedex100_header_User_Agent`
+          - Pokedex100的User-Agent，在Pokedex100網頁的F12 - Network - free=h0rphYCSfP97gO - User-Agent
+          - The User-Agent code of the Pokedex100 web page. Click on the "Click for Coords" button of a pokémon in Pokedex100 channel randomly, then you will be directed to the Pokedex100 web page, and after authorizate with your Discord account, press F12 on the browser, then you can find the string in the Network - free=XXXXXXXXXXXXXX - User-Agent, the whole string is `Pokedex100_header_User_Agent` (if you don't find it, press F5 and look again).
+      13. `Pokedex100_header_Cookie`
+          - Pokedex100的Cookie，在Pokedex100網頁的F12 - Network - free=h0rphYCSfP97gO - Set-Cookie
+          - The Cookies of the Pokedex100 web page. Click on the "Click for Coords" button of a pokémon in Pokedex100 channel randomly, then you will be directed to the Pokedex100 web page, and after authorizate with your Discord account, press F12 on the browser, then you can find Network - free=XXXXXXXXXXXXXX - Set-Cookie, there may be two of them, what we need are "csrftoken" and "sessionid", the "csrftoken" and "sessionid" titles should also be pasted like: 'csrftoken=XXXXXXXXXXXXXX; sessionid=XXXXXXXXXXXXXX' (if you don't find it, press F5 and look again).
+</br></br>
+      - Notice that in this parameter_settings.txt file, every space, blank line, equal sign and semicolon, etc. is necessary, do not change the format, it should look like this:  
+        <img src= "https://github.com/peter890331/new_autoshinyhunter/assets/91075744/7be326e5-b7e4-41a3-8494-9069e8cb7152" width="500px">
+         
+   4. Run new_autoshinyhunter_v3.0.exe file, the descriptions when runnig as follows:
+      1. - 請確認parameter_setting.txt參數設定，完成請按下Enter鍵
+         - Please confirm parameters setting of parameter_setting.txt, and press Enter to continue.
+      2. - 請手動開啟NemoADB.exe，並可最小化其視窗，完成請按下Enter鍵
+         - Please open NemoADB.exe in NemoADB folder manually, and can minimize its window, and press Enter to continue.
+      3. - 請將手機啟用AtxAgent，開啟GPS Joystick傳送至任意位置並隱藏，開啟Pokemon Go並確認遊戲視角與記事本設定相同，完成請按下Enter鍵
+         - Please enable AtxAgent on your phone (may not be necessary), open GPS Joystick and send to any location then hide its operating interface, open Pokemon Go and make sure the game perspective is the same as the vi. `check_position` setting, and press Enter to continue.
+      4. - 請選擇手機連接模式，USB連接請輸入0(建議)、Wifi連接請輸入1
+         - Please select the phone connection mode, input 0 (recommended) for USB connection and 1 for Wifi connection, and always remember to open the USB debugging mode before connecting.
+         
+         A. 若選擇USB連接模式, If select USB connection mode:
+         1. - 請將手機以USB接上電腦，完成請按下Enter鍵
+            - Please connect your phone to the computer by USB, and press Enter to continue.
+              
+         Then your phone window should pop up automatically, and start sending the location and click on the pokemons, however, if there is no new pokémon coords in the Pokedex100 channel, it may show: No new coord, waiting . . ., just wait for the channel to update.
+
+         B. 若選擇Wifi連接模式, If select Wifi connection mode:
+         1. - 請將手機開啟Wifi並先連接上電腦，再輸入ip位置
+            - Please turn on the Wifi on your phone and connect it to the computer by USB first, then input the IP address of your phone, it can usually be found in the phone's settings, looks like: 192.XXX.XX.XXX.
+         2. - 請將手機與電腦連接拔除，完成請按下Enter鍵
+            - Please disconnectthe USB connection between your phone and computer, and press Enter to continue.
+           
+         Please remember, if your WIFI is slow, it is recommended that set the v. `wifi_delay` bigger.
+</br></br>
+      - Then your phone window should pop up automatically, and start sending the location and click on the pokemons, however, if there is no new pokémon coords in the Pokedex100 channel, it may show: No new coord, waiting . . ., just wait for the channel to update.
+        
+   5. Enjoy the convenience brought by this scripts 🤓.
 
  
 ## Make updates, For Developers
