@@ -117,7 +117,50 @@ For users, you can directly download the final version in Releases, it contains 
    5. Enjoy the convenience brought by this scripts 🤓.
 
  
-## Make updates, For Developers
+## Make updates, For Developers or the future ?
+ - This script use my current phone (RMX2111) for testing, if using different brand or type of phones, when clicking on the screen, may be due to differences in screen size or resolution, resulting in a distorted click position, so in the future, it may be possible to add functions to adapt to different screens.
+ - If there are updates to this script in the future, can use "PyInstaller" to package the .py file into an .exe file.
+
+## Some screen recording and screenshots when using
+These two videos are the gains of my actual use for a period of time, as evidenced by the videos.
+
+https://github.com/peter890331/new_autoshinyhunter/assets/91075744/4bfb957b-9c12-4675-b46d-11a235e97eb5
+
+https://github.com/peter890331/new_autoshinyhunter/assets/91075744/eac9791b-3383-45e2-bc7a-2b8996df06f0
+
+These screenshots are my actual usage, including testing while developing, I also like to use the script while doing other things, while I focus on other things, the script will continue to click pokémons for me.
+</br></br>
+<img src= "https://github.com/peter890331/new_autoshinyhunter/assets/91075744/3c4be4e0-5ec7-4550-92d4-bf268104e11b" width="100px">
+<img src= "https://github.com/peter890331/new_autoshinyhunter/assets/91075744/b22cdc89-da63-4462-846c-468701561386" width="100px">
+<img src= "https://github.com/peter890331/new_autoshinyhunter/assets/91075744/780abdbd-e7a3-4461-b86e-52260bb02d6f" width="100px">
+<img src= "https://github.com/peter890331/new_autoshinyhunter/assets/91075744/3931fe49-4672-4be9-9373-3fbbeba12f23" width="100px">
+<img src= "https://github.com/peter890331/new_autoshinyhunter/assets/91075744/05512773-572e-430e-9526-7673fbeb6f76" width="100px">
+<img src= "https://github.com/peter890331/new_autoshinyhunter/assets/91075744/756c6a51-67f5-45f2-bdbc-c7f82ffaac0f" width="100px">
+</br></br>
+<img src= "https://github.com/peter890331/new_autoshinyhunter/assets/91075744/b2b93761-84cf-4c5f-a9e1-fb35d6f41211" width="100px">
+<img src= "https://github.com/peter890331/new_autoshinyhunter/assets/91075744/a287b704-9003-4ecc-952c-943a9d164b92" width="100px">
+<img src= "https://github.com/peter890331/new_autoshinyhunter/assets/91075744/1b8c00eb-6999-4cb9-9411-69c589f8c515" width="100px">
+<img src= "https://github.com/peter890331/new_autoshinyhunter/assets/91075744/c566c634-7786-4a34-99cd-5be665066377" width="100px">
+<img src= "https://github.com/peter890331/new_autoshinyhunter/assets/91075744/8d9bfeb4-b8d9-49d0-8f7e-b0da31953e75" width="100px">
+<img src= "https://github.com/peter890331/new_autoshinyhunter/assets/91075744/8e04bf2e-d4c1-4a8c-b193-575dae1f0459" width="100px">
+
+## Notes
+### scrcpy
+scrcpy ([Github][2], [scrcpy-win64-v2.0 download link][3]), this application mirrors Android devices connected via USB or over TCP/IP, and allows to control the device with the keyboard and the mouse of the computer.  
+Here are some command steps can use to test the Wifi connection mode:
+1. cd /d C:\Users\XXX\scrcpy-win64-vX.XX
+2. adb tcpip 5555
+3. adb connect 192.XXX.XX.XXX:5555
+4. scrcpy -t -b2M -m800
+   
+Then here are two useful shortcuts to turn off the phone screen while connected:
+- Turn device screen off (keep mirroring)	MOD+o
+- Turn device screen on	MOD+Shift+o
+And a Chinese teaching video on [Youtube][8].
+
+[8]: https://youtu.be/WkTd5OxDZ-8
+
+---
 
 ### ❗ 再次警告：僅以此練習程式編寫，請勿在遊戲中使用外掛，否則後果自負！本人對此內容不負任何法律責任。 ❗    
 ### ❗ WARNING AGAIN: Practice programming only, please do not use it to cheat on the game!     
