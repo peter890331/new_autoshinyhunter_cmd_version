@@ -145,6 +145,7 @@ These screenshots are my actual usage, including testing while developing, I als
 <img src= "https://github.com/peter890331/new_autoshinyhunter/assets/91075744/8d9bfeb4-b8d9-49d0-8f7e-b0da31953e75" width="100px">
 <img src= "https://github.com/peter890331/new_autoshinyhunter/assets/91075744/8e04bf2e-d4c1-4a8c-b193-575dae1f0459" width="100px">
 
+(Unowns was captured using another script that I written previously, which was used to collect all kinds of Unowns.)
 ## Notes
 ### scrcpy
 scrcpy ([Github][2], [scrcpy-win64-v2.0 download link][3]), this application mirrors Android devices connected via USB or over TCP/IP, and allows to control the device with the keyboard and the mouse of the computer.  
