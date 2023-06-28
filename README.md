@@ -18,7 +18,7 @@ In Pokémon Go, beyond your pokémon’s CP (Combat Power), all your caught pok�
 This game bot script can fully automatically send your game position to any location in the world where the specified iv100 pokémon appear, and click on the pokémon to determine whether it is a shiny, if not, then continue to try in the whole world, if yes, stop the script and wait for manual capture.    
 
 Equipment and Software Requirements:
-  1. A rooted Android phone with GPS JoyStick (Google Play) installed IN THE SYSTEM, install uiautomator2 (Github) services such as ATX-agent (may not be necessary for the new version), and of course, install Pokémon GO.
+  1. A rooted Android phone with GPS JoyStick ([Google Play][1]) installed **IN THE SYSTEM**, install uiautomator2 ([Github][5]) services such as ATX-agent (may not be necessary for the new version), and of course, install Pokémon GO.
   2. scrcpy ([Github][2], [scrcpy-win64-v2.0 download link][3]), this application mirrors Android devices connected via USB or over TCP/IP, and allows to control the device with the keyboard and the mouse of the computer.
   3. NemoADB by PokeNemo ([Official Website][4]), NemoADB is a GUI program useful to speed up your shundo snipe if you have an Android device with GPS Joystick and a Windows PC.
   4. A Windows computer.
