@@ -101,8 +101,6 @@ For users, you can directly download the final version in Releases, it contains 
          A. 若選擇USB連接模式, If select USB connection mode:
          1. - 請將手機以USB接上電腦，完成請按下Enter鍵
             - Please connect your phone to the computer by USB, and press Enter to continue.
-              
-         Then your phone window should pop up automatically, and start sending the location and click on the pokemons, however, if there is no new pokémon coords in the Pokedex100 channel, it may show: No new coord, waiting . . ., just wait for the channel to update.
 
          B. 若選擇Wifi連接模式, If select Wifi connection mode:
          1. - 請將手機開啟Wifi並先連接上電腦，再輸入ip位置
@@ -110,7 +108,7 @@ For users, you can directly download the final version in Releases, it contains 
          2. - 請將手機與電腦連接拔除，完成請按下Enter鍵
             - Please disconnectthe USB connection between your phone and computer, and press Enter to continue.
            
-         Please remember, if your WIFI is slow, it is recommended that set the v. `wifi_delay` bigger.
+         Please remember, if your Wifi is slow, it is recommended that set the v. `wifi_delay` bigger.
 </br></br>
       - Then your phone window should pop up automatically, and start sending the location and click on the pokemons, however, if there is no new pokémon coords in the Pokedex100 channel, it may show: No new coord, waiting . . ., just wait for the channel to update.
         
