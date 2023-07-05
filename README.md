@@ -71,7 +71,7 @@ For users, you can directly download the final version in Releases, it contains 
          - If the channel of Pokedex100 server contains multiple pokémons but you only want to catch a few specific of them, type the name of those specific pokémons, separated by blank keys, ex：=Cranidos Shieldon Larvitar; if not specified, then blank.
       9. `shiny_symbol`
           - 要抓取的寶可夢在DC Pokedex頻道中是否正常擁有色違符號，若有（通常都有）則設置為1；若包含任何一種要欲抓取的特定寶可夢無色違符號，則設置為0
-          - `shiny_symbol` means the binary value that depends on if pokémons to be captured in the channel of Pokedex100 server has the shiny symbol, if yes (usually available) then set to 1;  if it contains any one of the specific pokemon you want to capture, but without shiny symbol, then set to 0, the shiny symbol look like this: <img src= "https://github.com/peter890331/new_autoshinyhunter/assets/91075744/0a28cbf4-0751-4421-afe9-e3662381cc1e" width="20px">.
+          - `shiny_symbol` means the binary value that depends on if pokémons to be captured in the channel of Pokedex100 server has the shiny symbol, if yes (usually available) then set to 1;  if it contains any one of the specific pokemon you want to capture, but without shiny symbol, then set to 0, the shiny symbol look like this: <img src= "https://github.com/peter890331/new_autoshinyhunter/assets/91075744/0a28cbf4-0751-4421-afe9-e3662381cc1e" width="20px">
       10. `phone_name`
           - 手機在scrcpy的視窗名
           - The window name of your phone in scrcpy. It is recommended that run scrcpy once before setting this parameter to determine the window name, the way to run scrcpy is: after enable USB debugging on the phone and connecting to the computer with USB, run scrcpy.exe directly.
