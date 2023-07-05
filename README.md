@@ -84,7 +84,7 @@ For users, you can directly download the final version in Releases, it contains 
       13. `Pokedex100_header_Cookie`
           - Pokedex100的Cookie，在Pokedex100網頁的F12 - Network - free=h0rphYCSfP97gO - Set-Cookie
           - The Cookies of the Pokedex100 web page. Click on the "Click for Coords" button of a pokémon in Pokedex100 channel randomly, then you will be directed to the Pokedex100 web page, and after authorizate with your Discord account, press F12 on the browser, then you can find Network - free=XXXXXXXXXXXXXX - Set-Cookie, there may be two of them, what we need are "csrftoken" and "sessionid", the "csrftoken" and "sessionid" titles should also be pasted like: 'csrftoken=XXXXXXXXXXXXXX; sessionid=XXXXXXXXXXXXXX' (if you don't find it, press F5 and look again).
-</br></br>
+</br>
       - Notice that in this parameter_settings.txt file, every space, blank line, equal sign and semicolon, etc. is necessary, do not change the format, it should look like this:  
         <img src= "https://github.com/peter890331/new_autoshinyhunter/assets/91075744/7be326e5-b7e4-41a3-8494-9069e8cb7152" width="500px">
          
@@ -109,7 +109,7 @@ For users, you can directly download the final version in Releases, it contains 
             - Please disconnectthe USB connection between your phone and computer, and press Enter to continue.
            
          Please remember, if your Wifi is slow, it is recommended that set the v. `wifi_delay` bigger.
-</br></br>
+</br>
       - Then your phone window should pop up automatically, and start sending the location and click on the pokemons, however, if there is no new pokémon coords in the Pokedex100 channel, it may show: No new coord, waiting . . ., just wait for the channel to update.
         
    5. Enjoy the convenience brought by this scripts 🤓.
@@ -128,14 +128,14 @@ https://github.com/peter890331/new_autoshinyhunter/assets/91075744/4bfb957b-9c12
 https://github.com/peter890331/new_autoshinyhunter/assets/91075744/eac9791b-3383-45e2-bc7a-2b8996df06f0
 
 These screenshots are my actual usage, including testing while developing, I also like to use the script while doing other things, while I focus on other things, the script will continue to click pokémons for me.
-</br></br>
+</br>
 <img src= "https://github.com/peter890331/new_autoshinyhunter/assets/91075744/3c4be4e0-5ec7-4550-92d4-bf268104e11b" width="100px">
 <img src= "https://github.com/peter890331/new_autoshinyhunter/assets/91075744/b22cdc89-da63-4462-846c-468701561386" width="100px">
 <img src= "https://github.com/peter890331/new_autoshinyhunter/assets/91075744/780abdbd-e7a3-4461-b86e-52260bb02d6f" width="100px">
 <img src= "https://github.com/peter890331/new_autoshinyhunter/assets/91075744/3931fe49-4672-4be9-9373-3fbbeba12f23" width="100px">
 <img src= "https://github.com/peter890331/new_autoshinyhunter/assets/91075744/05512773-572e-430e-9526-7673fbeb6f76" width="100px">
 <img src= "https://github.com/peter890331/new_autoshinyhunter/assets/91075744/756c6a51-67f5-45f2-bdbc-c7f82ffaac0f" width="100px">
-</br></br>
+</br>
 <img src= "https://github.com/peter890331/new_autoshinyhunter/assets/91075744/b2b93761-84cf-4c5f-a9e1-fb35d6f41211" width="100px">
 <img src= "https://github.com/peter890331/new_autoshinyhunter/assets/91075744/a287b704-9003-4ecc-952c-943a9d164b92" width="100px">
 <img src= "https://github.com/peter890331/new_autoshinyhunter/assets/91075744/1b8c00eb-6999-4cb9-9411-69c589f8c515" width="100px">
