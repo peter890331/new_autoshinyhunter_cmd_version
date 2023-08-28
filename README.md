@@ -22,7 +22,7 @@ Equipment and Software Requirements:
   2. scrcpy ([Github][2], [scrcpy-win64-v2.0 download link][3]), this application mirrors Android devices connected via USB or over TCP/IP, and allows to control the device with the keyboard and the mouse of the computer.
   3. NemoADB by PokeNemo ([Official Website][4]), NemoADB is a GUI program useful to speed up your shundo snipe if you have an Android device with GPS Joystick and a Windows PC.
   4. A Windows computer.
-  5. A Discord ([Official Website][6]) account that has joined the Pokedex100 ([Official Website][7]) server, Pokedex100 provides pokémon coordinates all over 30 countries, it used to snipe iv100 pokémons.
+  5. A Discord ([Official Website][6]) account that has joined the Pokedex100 ([Official Website][7]) server, Pokedex100 provides pokémon coordinates all over 30 countries, it used to snipe iv100 pokémons. Free account is enough, no need to pay, because this game bot script also doesn't support croods crawler of donor channels.
 
 [1]: https://play.google.com/store/apps/details?id=com.theappninjas.fakegpsjoystick
 [2]: https://github.com/Genymobile/scrcpy
@@ -42,7 +42,7 @@ For users, you can directly download the final version in Releases, it contains 
    3. Setup parameters in the parameter_settings.txt file, the descriptions of the parameters are as follows:
       1. `channelid`  
          - 選擇欲爬蟲的DC Pokedex頻道id，在網頁版DC的F12 - Network - message?limit=50 - Request URl  
-         - The ID of the Discord channel used to broadcast the iv100 pokémons. Go to the Pokedex100 server in web version of Discord, and there is usually a channel called 100communitcy, or a special channel on community days, and press F12 on the browser after selecting the channel, then you can find a number string in the Network - messages?limit=50 - Request URL, the number is `channelid` (if you don't find it, press F5 and look again).
+         - The ID of the Discord channel used to broadcast the iv100 pokémons. Go to the Pokedex100 server in web version of Discord, and there is usually a channel called 100communitcy, or a special channel on community days, and press F12 on the browser after selecting the channel, then you can find a number string in the Network - messages?limit=50 - Request URL, the number is `channelid` (if you don't find it, press F5 and look again), however, only free-to-use channels are supported, i.e. channels where the button displays "Click for Coords" instead of "Click for Donor coord".
       2. `L_wanted`  
          - 想要抓的寶可夢至少等級  
          - `L_wanted` means the minimum level of pokémons you want to catch, if set to 0, it will catch all levels of pokémons, if set to 30, it will only catch pokémons above the level 30.
@@ -118,6 +118,7 @@ For users, you can directly download the final version in Releases, it contains 
 ## Make updates, For Developers or the future ?
  - This script use my current phone (RMX2111) for testing, if using different brand or type of phones, when clicking on the screen, may be due to differences in screen size or resolution, resulting in a distorted click position, so in the future, it may be possible to add functions to adapt to different screens.
  - Now the script uses template images in the template folder for image recognition to determine which screen it is on, but sometimes when click on the wrong target, the script will still continue, for example, when click on Team Rockets, for unknown reasons, it does not detect, no return to the map as soon as possible may lose time, this will be a weakness that can be rethought to improve.
+ - Add coords crawler of donor channels, now only free-to-use channels are supported, because I'm poor, can't afford to sponsor.
  - If there are updates to this script in the future, can use "PyInstaller" to package the .py file into an .exe file, use "pyinstaller -F XXX.py" command.
 
 ## Some screen recording and screenshots when using
