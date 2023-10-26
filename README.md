@@ -110,16 +110,17 @@ For users, you can directly download the final version in Releases, it contains 
            
          Please remember, if your Wifi is slow, it is recommended that set the v. `wifi_delay` bigger.
 </br></br>
-      - Then your phone window should pop up automatically, and start sending the location and click on the pokemons, however, if there is no new pokémon coords in the Pokedex100 channel, it may show: No new coord, waiting . . ., just wait for the channel to update.
+      - Then your phone window should pop up automatically, and start sending the location and click on the pokémons, however, if there is no new pokémon coords in the Pokedex100 channel, it may show: No new coord, waiting . . ., just wait for the channel to update.
         
    5. Enjoy the convenience brought by this scripts 🤓.
+      - Notice that the UIAUTOMATOR of AtxAgent should be activated automatically when the script starts to run, but sometimes it doesn't work, so if you observe that the script doesn't click on the screen, you need to run the UIAUTOMATOR manually again. Press "刷新 服务 状态" in the ATX app, and if it displays {"running":false}, press "启动 UIAUTOMATOR", then can go back to Pokemon Go.
 
  
 ## Make updates, For Developers or the future ?
  - This script use my current phone (RMX2111) for testing, if using different brand or type of phones, when clicking on the screen, may be due to differences in screen size or resolution, resulting in a distorted click position, so in the future, it may be possible to add functions to adapt to different screens.
  - Now the script uses template images in the template folder for image recognition to determine which screen it is on, but sometimes when click on the wrong target, the script will still continue, for example, when click on Team Rockets, for unknown reasons, it does not detect, no return to the map as soon as possible may lose time, this will be a weakness that can be rethought to improve.
+ - During the Halloween event, all PokeStops will turn to orange color, which will cause all PokeStops to be unrecognizable when clicked on, because those are rely on the blue color for recognition, so this could lead to an error when script executing.
  - Add coords crawler of donor channels, now only free-to-use channels are supported, because I'm poor, can't afford to sponsor.
- - If there are updates to this script in the future, can use "PyInstaller" to package the .py file into an .exe file, use "pyinstaller -F XXX.py" command.
 
 ## Some screen recording and screenshots when using
 These two videos are the gains of my actual use for a period of time, as evidenced by the videos.
@@ -162,6 +163,17 @@ Then here are two useful shortcuts to turn off the phone screen while connected:
 And a traditional Chinese teaching video on [Youtube][8].
 
 [8]: https://youtu.be/WkTd5OxDZ-8
+
+### WindowThumbnail
+If you are using your computer to do other things at the same time as running this script, and want to keep checking if shiny pokémon has appeared, you can use WindowThumbnail ([Github][9]) to continuously displays your phone screen or the cmd of this script in a small window on the upper level of your computer.
+
+And a traditional Chinese tutorial on [巴哈姆特][10].
+
+[9]: https://github.com/neilchennc/WindowThumbnail
+[10]: https://forum.gamer.com.tw/Co.php?bsn=19017&sn=318177
+
+### PyInstaller
+If there are updates to this script in the future, can use "PyInstaller" to package the .py file into an .exe file, use "pyinstaller -F XXX.py" command.
 
 ---
 
