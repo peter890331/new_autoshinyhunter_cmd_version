@@ -165,12 +165,13 @@ And a traditional Chinese teaching video on [Youtube][8].
 [8]: https://youtu.be/WkTd5OxDZ-8
 
 ### WindowThumbnail
-If you are using your computer to do other things at the same time as running this script, and want to keep checking if shiny pokémon has appeared, you can use WindowThumbnail ([Github][9]) to continuously displays your phone screen or the cmd of this script in a small window on the upper level of your computer.
+If you are using your computer to do other things at the same time as running this script, and want to keep checking if shiny pokémon has appeared, you can use WindowThumbnail ([Github][9], [WindowThumbnail-v1.0 download link][11]) to continuously displays your phone screen or the cmd of this script in a small window on the upper level of your computer.
 
 And a traditional Chinese tutorial on [巴哈姆特][10].
 
 [9]: https://github.com/neilchennc/WindowThumbnail
 [10]: https://forum.gamer.com.tw/Co.php?bsn=19017&sn=318177
+[11]: https://github.com/neilchennc/WindowThumbnail/releases/download/v1.0/WindowThumbnail-v1.0.exe
 
 ### PyInstaller
 If there are updates to this script in the future, can use "PyInstaller" to package the .py file into an .exe file, use "pyinstaller -F XXX.py" command.
