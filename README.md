@@ -159,7 +159,7 @@ Then here are two useful shortcuts to turn off the phone screen while connected:
 - Turn device screen on:	MOD+Shift+o  
   (MOD key is usually Alt)
   
-And a Chinese teaching video on [Youtube][8].
+And a traditional Chinese teaching video on [Youtube][8].
 
 [8]: https://youtu.be/WkTd5OxDZ-8
 
