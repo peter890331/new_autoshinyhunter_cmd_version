@@ -123,23 +123,33 @@ For users, you can directly download the final version in Releases, it contains 
  - Add coords crawler of donor channels, now only free-to-use channels are supported, because I'm poor, can't afford to sponsor.
 
 ## Some screen recording and screenshots when using
-These two videos are the gains of my actual use for a period of time, as evidenced by the videos.
+These videos are the gains of my actual use for a period of time, as evidenced by the videos.
+
+(Click in to download to watch the full video.)
 
 Self-made script:
 
-<img src= "https://github.com/peter890331/new_autoshinyhunter/blob/figures/Self-made%20script.gif" width="200px">
+<a href="https://github.com/peter890331/new_autoshinyhunter/blob/figures/Self-made%20script.mp4">
+  <img src="https://github.com/peter890331/new_autoshinyhunter/blob/figures/Self-made%20script.gif" width="200" height=auto>
+</a>
 
 Self-made script updated (2023/11/13) :
 
-<img src= "https://github.com/peter890331/new_autoshinyhunter/blob/figures/Self-made%20script%202.gif" width="200px">
+<a href="https://github.com/peter890331/new_autoshinyhunter/blob/figures/Self-made%20script%202.mp4">
+  <img src="https://github.com/peter890331/new_autoshinyhunter/blob/figures/Self-made%20script%202.gif" width="200" height=auto>
+</a>
 
 ALL shiny:
 
-<img src= "https://github.com/peter890331/new_autoshinyhunter/blob/figures/ALL%20shiny.gif" width="200px">
+<a href="https://github.com/peter890331/new_autoshinyhunter/blob/figures/ALL%20shiny.mp4">
+  <img src="https://github.com/peter890331/new_autoshinyhunter/blob/figures/ALL%20shiny.gif" width="200" height=auto>
+</a>
 
 ALL shiny updated (2023/11/13) :
 
-<img src= "https://github.com/peter890331/new_autoshinyhunter/blob/figures/ALL%20shiny%202.gif" width="200px">
+<a href="https://github.com/peter890331/new_autoshinyhunter/blob/figures/ALL%20shiny%202.mp4">
+  <img src="https://github.com/peter890331/new_autoshinyhunter/blob/figures/ALL%20shiny%202.gif" width="200" height=auto>
+</a>
 
 These screenshots are my actual usage, including testing while developing, I also like to use the script while doing other things, while I focus on other things, the script will continue to click pokémons for me.
 </br>
