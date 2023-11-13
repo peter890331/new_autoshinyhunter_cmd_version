@@ -9,7 +9,7 @@ new_autoshinyhunter_v3.0, made by Peter Yu.
 ### ❗ 警告：僅以此練習程式編寫，請勿在遊戲中使用外掛，否則後果自負！本人對此內容不負任何法律責任。 ❗    
 ### ❗ WARNING: Practice programming only, please do not use it to cheat on the game!     
 ### The consequences are your own! I will not be responsible for any law liability to this content. ❗    
- <img src= "https://github.com/peter890331/new_autoshinyhunter/assets/91075744/1f20343d-57d1-4f0b-8a44-05b43d2c4bbe" width="300px">
+ <img src= "https://github.com/peter890331/new_autoshinyhunter/blob/figures/icon.png" width="300px">
  
 ## Foreword
 In Pokémon Go, beyond your pokémon’s CP (Combat Power), all your caught pokémons have semi-hidden base stats called individual values, or IVs. IVs determine how strong a Pokémon can potentially get. For example, a perfect IV Chansey will have a higher CP at its maxed out level, as opposed to a Chansey with only so-so IVs. There are just three stats to worry about: Attack, Defense, and Stamina, each of which maxes out at 15, and the pokémon with all three stats of 15 is called the iv100 pokémon, it means that this pokémon is the strongest in the same kind of pokémons. In addition, shiny pokémons are rare variants of pokémons that are differently colored than other pokémons of their species. In the game, the chance of having iv100 pokémons on the map is already very low, not to mention that it is also a shiny pokémon, so can see how difficult it is to obtain a pokémon with these two characteristics from the general game method.
@@ -37,7 +37,7 @@ For users, you can directly download the final version in Releases, it contains 
 ### Steps:
    1. Download the final version files in Releases, unzip each zip file into folders, then place the unziped folders with the new_autoshinyhunter_v3.0.exe file and parameter_settings.txt file in the same folder you created, and for those who are not playing game in traditional Chinese, some of the template screenshots in the template folder will need to be re-screenshot in your game language.
    2. Download scrcpy and unzip it, then place in the the same folder you created too, the folder will look like this:  
-      <img src= "https://github.com/peter890331/new_autoshinyhunter/assets/91075744/279eae10-a043-4d75-b05d-590532f43ce1" width="200px">
+      <img src= "https://github.com/peter890331/new_autoshinyhunter/blob/figures/folder.png" width="200px">
       
    3. Setup parameters in the parameter_settings.txt file, the descriptions of the parameters are as follows:
       1. `channelid`  
@@ -58,10 +58,10 @@ For users, you can directly download the final version in Releases, it contains 
       6. `check_position`
          - 遊戲視角畫面最大化時設置為0；遊戲視角畫面最小化時則設置為1(適合會飛行，不在腳邊的寶可夢，ex.飛翔皮卡丘)
          - `check_position` means the binary value that depends on the game perspective, set to 0 when the game perspective is maximized; set to 1 when the game perspective is minimized (suitable for those pokémons who will fly or not beside the feet, ex. Flying Pikachu), the maximized game perspective looks like:  
-           <img src= "https://github.com/peter890331/new_autoshinyhunter/assets/91075744/08d4bced-86ba-4afc-a688-759acb8ecaf8" width="200px">
+           <img src= "https://github.com/peter890331/new_autoshinyhunter/blob/figures/maximized%20game%20perspective.png" width="200px">
 
            , and the minimized game perspective looks like:  
-           <img src= "https://github.com/peter890331/new_autoshinyhunter/assets/91075744/b48b0262-ea40-45aa-be0d-902e4078aaeb" width="200px">
+           <img src= "https://github.com/peter890331/new_autoshinyhunter/blob/figures/minimized%20game%20perspective.png" width="200px">
 
       7. `male_and_female`
          - 若欲捕捉特定性別的寶可夢，公的設置為1；母的設置為0；若不指定，則空白 
@@ -71,7 +71,7 @@ For users, you can directly download the final version in Releases, it contains 
          - If the channel of Pokedex100 server contains multiple pokémons but you only want to catch a few specific of them, type the name of those specific pokémons, separated by blank keys, ex：=Cranidos Shieldon Larvitar; if not specified, then blank.
       9. `shiny_symbol`
           - 要抓取的寶可夢在DC Pokedex頻道中是否正常擁有色違符號，若有（通常都有）則設置為1；若包含任何一種要欲抓取的特定寶可夢無色違符號，則設置為0
-          - `shiny_symbol` means the binary value that depends on if pokémons to be captured in the channel of Pokedex100 server has the shiny symbol, if yes (usually available) then set to 1;  if it contains any one of the specific pokemon you want to capture, but without shiny symbol, then set to 0, the shiny symbol look like this: <img src= "https://github.com/peter890331/new_autoshinyhunter/assets/91075744/0a28cbf4-0751-4421-afe9-e3662381cc1e" width="20px">.
+          - `shiny_symbol` means the binary value that depends on if pokémons to be captured in the channel of Pokedex100 server has the shiny symbol, if yes (usually available) then set to 1;  if it contains any one of the specific pokemon you want to capture, but without shiny symbol, then set to 0, the shiny symbol look like this: <img src= "https://github.com/peter890331/new_autoshinyhunter/blob/figures/shiny%20symbol.png" width="20px">.
       10. `phone_name`
           - 手機在scrcpy的視窗名
           - The window name of your phone in scrcpy. It is recommended that run scrcpy once before setting this parameter to determine the window name, the way to run scrcpy is: after enable USB debugging on the phone and connecting to the computer with USB, run scrcpy.exe directly.
@@ -86,7 +86,7 @@ For users, you can directly download the final version in Releases, it contains 
           - The Cookies of the Pokedex100 web page. Click on the "Click for Coords" button of a pokémon in Pokedex100 channel randomly, then you will be directed to the Pokedex100 web page, and after authorizate with your Discord account, press F12 on the browser, then you can find Network - free=XXXXXXXXXXXXXX - Set-Cookie, there may be two of them, what we need are 'csrftoken' and 'sessionid', the 'csrftoken' and 'sessionid' titles should also be pasted like: 'csrftoken=XXXXXXXXXXXXXX; sessionid=XXXXXXXXXXXXXX' (if you don't find it, press F5 and look again).
 </br></br>
       - Notice that in this parameter_settings.txt file, every space, blank line, equal sign and semicolon, etc. is necessary, do not change the format, it should look like this:  
-        <img src= "https://github.com/peter890331/new_autoshinyhunter/assets/91075744/7be326e5-b7e4-41a3-8494-9069e8cb7152" width="500px">
+        <img src= "https://github.com/peter890331/new_autoshinyhunter/blob/figures/parameter_settings.png" width="500px">
          
    4. Run new_autoshinyhunter_v3.0.exe file, the descriptions when runnig as follows:
       1. - 請確認parameter_setting.txt參數設定，完成請按下Enter鍵
@@ -125,25 +125,41 @@ For users, you can directly download the final version in Releases, it contains 
 ## Some screen recording and screenshots when using
 These two videos are the gains of my actual use for a period of time, as evidenced by the videos.
 
-https://github.com/peter890331/new_autoshinyhunter/assets/91075744/4bfb957b-9c12-4675-b46d-11a235e97eb5
+Self-made script:
 
-https://github.com/peter890331/new_autoshinyhunter/assets/91075744/eac9791b-3383-45e2-bc7a-2b8996df06f0
+<img src= "https://github.com/peter890331/new_autoshinyhunter/blob/figures/Self-made%20script.gif" width="200px">
+
+Self-made script updated (2023/11/13) :
+
+<img src= "https://github.com/peter890331/new_autoshinyhunter/blob/figures/Self-made%20script%202.gif" width="200px">
+
+ALL shiny:
+
+<img src= "https://github.com/peter890331/new_autoshinyhunter/blob/figures/ALL%20shiny.gif" width="200px">
+
+ALL shiny updated (2023/11/13) :
+
+<img src= "https://github.com/peter890331/new_autoshinyhunter/blob/figures/ALL%20shiny%202.gif" width="200px">
 
 These screenshots are my actual usage, including testing while developing, I also like to use the script while doing other things, while I focus on other things, the script will continue to click pokémons for me.
 </br>
-<img src= "https://github.com/peter890331/new_autoshinyhunter/assets/91075744/3c4be4e0-5ec7-4550-92d4-bf268104e11b" width="100px">
-<img src= "https://github.com/peter890331/new_autoshinyhunter/assets/91075744/b22cdc89-da63-4462-846c-468701561386" width="100px">
-<img src= "https://github.com/peter890331/new_autoshinyhunter/assets/91075744/780abdbd-e7a3-4461-b86e-52260bb02d6f" width="100px">
-<img src= "https://github.com/peter890331/new_autoshinyhunter/assets/91075744/3931fe49-4672-4be9-9373-3fbbeba12f23" width="100px">
-<img src= "https://github.com/peter890331/new_autoshinyhunter/assets/91075744/05512773-572e-430e-9526-7673fbeb6f76" width="100px">
-<img src= "https://github.com/peter890331/new_autoshinyhunter/assets/91075744/756c6a51-67f5-45f2-bdbc-c7f82ffaac0f" width="100px">
+<img src= "https://github.com/peter890331/new_autoshinyhunter/blob/figures/1.png" width="100px">
+<img src= "https://github.com/peter890331/new_autoshinyhunter/blob/figures/2.png" width="100px">
+<img src= "https://github.com/peter890331/new_autoshinyhunter/blob/figures/3.png" width="100px">
+<img src= "https://github.com/peter890331/new_autoshinyhunter/blob/figures/4.png" width="100px">
+<img src= "https://github.com/peter890331/new_autoshinyhunter/blob/figures/5.png" width="100px">
+<img src= "https://github.com/peter890331/new_autoshinyhunter/blob/figures/6.png" width="100px">
 </br></br>
-<img src= "https://github.com/peter890331/new_autoshinyhunter/assets/91075744/b2b93761-84cf-4c5f-a9e1-fb35d6f41211" width="100px">
-<img src= "https://github.com/peter890331/new_autoshinyhunter/assets/91075744/a287b704-9003-4ecc-952c-943a9d164b92" width="100px">
-<img src= "https://github.com/peter890331/new_autoshinyhunter/assets/91075744/1b8c00eb-6999-4cb9-9411-69c589f8c515" width="100px">
-<img src= "https://github.com/peter890331/new_autoshinyhunter/assets/91075744/c566c634-7786-4a34-99cd-5be665066377" width="100px">
-<img src= "https://github.com/peter890331/new_autoshinyhunter/assets/91075744/8d9bfeb4-b8d9-49d0-8f7e-b0da31953e75" width="100px">
-<img src= "https://github.com/peter890331/new_autoshinyhunter/assets/91075744/8e04bf2e-d4c1-4a8c-b193-575dae1f0459" width="100px">
+<img src= "https://github.com/peter890331/new_autoshinyhunter/blob/figures/7.png" width="100px">
+<img src= "https://github.com/peter890331/new_autoshinyhunter/blob/figures/8.png" width="100px">
+<img src= "https://github.com/peter890331/new_autoshinyhunter/blob/figures/9.png" width="100px">
+<img src= "https://github.com/peter890331/new_autoshinyhunter/blob/figures/10.png" width="100px">
+<img src= "https://github.com/peter890331/new_autoshinyhunter/blob/figures/11.png" width="100px">
+<img src= "https://github.com/peter890331/new_autoshinyhunter/blob/figures/12.jpg" width="100px">
+</br></br>
+And then an update (2023/11/13) for use on Halloween.
+</br>
+<img src= "https://github.com/peter890331/new_autoshinyhunter/blob/figures/13.png" width="100px">
 
 (Unowns was captured using another script that I written previously, which was used to collect all kinds of Unowns.)
 ## Notes
