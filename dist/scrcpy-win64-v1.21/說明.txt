@@ -1,0 +1,16 @@
+cd /d C:\Users\Peter890331\Desktop\scrcpy-win64-v1.21
+
+adb tcpip 5555
+
+adb connect 192.168.1.XXX:5555
+
+scrcpy -t -b2M -m800
+
+https://www.youtube.com/watch?v=WkTd5OxDZ-8&t=120s
+
+https://github.com/Genymobile/scrcpy
+
+Turn device screen off (keep mirroring)	MOD+o
+Turn device screen on	MOD+Shift+o
+
+MOD = Alt
