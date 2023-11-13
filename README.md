@@ -83,7 +83,7 @@ For users, you can directly download the final version in Releases, it contains 
           - The User-Agent code of the Pokedex100 web page. Click on the "Click for Coords" button of a pokémon in Pokedex100 channel randomly, then you will be directed to the Pokedex100 web page, and after authorizate with your Discord account, press F12 on the browser, then you can find the string in the Network - free=XXXXXXXXXXXXXX - User-Agent, the whole string is `Pokedex100_header_User_Agent` (if you don't find it, press F5 and look again).
       13. `Pokedex100_header_Cookie`
           - Pokedex100的Cookie，在Pokedex100網頁的F12 - Network - free=h0rphYCSfP97gO - Set-Cookie
-          - The Cookies of the Pokedex100 web page. Click on the "Click for Coords" button of a pokémon in Pokedex100 channel randomly, then you will be directed to the Pokedex100 web page, and after authorizate with your Discord account, press F12 on the browser, then you can find Network - free=XXXXXXXXXXXXXX - Set-Cookie, there may be two of them, what we need are "csrftoken" and "sessionid", the "csrftoken" and "sessionid" titles should also be pasted like: 'csrftoken=XXXXXXXXXXXXXX; sessionid=XXXXXXXXXXXXXX' (if you don't find it, press F5 and look again).
+          - The Cookies of the Pokedex100 web page. Click on the "Click for Coords" button of a pokémon in Pokedex100 channel randomly, then you will be directed to the Pokedex100 web page, and after authorizate with your Discord account, press F12 on the browser, then you can find Network - free=XXXXXXXXXXXXXX - Set-Cookie, there may be two of them, what we need are 'csrftoken' and 'sessionid', the 'csrftoken' and 'sessionid' titles should also be pasted like: 'csrftoken=XXXXXXXXXXXXXX; sessionid=XXXXXXXXXXXXXX' (if you don't find it, press F5 and look again).
 </br></br>
       - Notice that in this parameter_settings.txt file, every space, blank line, equal sign and semicolon, etc. is necessary, do not change the format, it should look like this:  
         <img src= "https://github.com/peter890331/new_autoshinyhunter/assets/91075744/7be326e5-b7e4-41a3-8494-9069e8cb7152" width="500px">
@@ -174,7 +174,7 @@ And a traditional Chinese tutorial on [巴哈姆特][10].
 [11]: https://github.com/neilchennc/WindowThumbnail/releases/download/v1.0/WindowThumbnail-v1.0.exe
 
 ### PyInstaller
-If there are updates to this script in the future, can use "PyInstaller" to package the .py file into an .exe file, use "pyinstaller -F XXX.py" command.
+If there are updates to this script in the future, can use PyInstaller to package the .py file into an .exe file, use 'pyinstaller -F XXX.py' command.
 
 ---
 
