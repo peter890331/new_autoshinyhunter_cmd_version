@@ -19,9 +19,9 @@ This game bot script can fully automatically send your game position to any loca
 
 Equipment and Software Requirements:
   1. A rooted Android phone with GPS JoyStick ([Google Play][1]) installed **IN THE SYSTEM**, install uiautomator2 ([Github][5]) services such as ATX-agent (may not be necessary for the new version), and of course, install Pokémon GO.
-  2. scrcpy ([Github][2], [scrcpy-win64-v2.0 download link][3]), this application mirrors Android devices connected via USB or over TCP/IP, and allows to control the device with the keyboard and the mouse of the computer.
-  3. NemoADB by PokeNemo ([Official Website][4]), NemoADB is a GUI program useful to speed up your shundo snipe if you have an Android device with GPS Joystick and a Windows PC.
-  4. A Windows computer.
+  2. A Windows computer.
+  3. scrcpy ([Github][2], [scrcpy-win64-v2.0 download link][3]), this application mirrors Android devices connected via USB or over TCP/IP, and allows to control the device with the keyboard and the mouse of the computer.
+  4. NemoADB by PokeNemo ([Official Website][4]), NemoADB is a GUI program useful to speed up your shundo snipe if you have an Android device with GPS Joystick and a Windows PC.
   5. A Discord ([Official Website][6]) account that has joined the Pokedex100 ([Official Website][7]) server, Pokedex100 provides pokémon coordinates all over 30 countries, it used to snipe iv100 pokémons. Free account is enough, no need to pay, because this game bot script also doesn't support croods crawler of donor channels.
 
 [1]: https://play.google.com/store/apps/details?id=com.theappninjas.fakegpsjoystick
