@@ -1,4 +1,4 @@
-# new_autoshinyhunter
+# new_autoshinyhunter_cmd_version
 new_autoshinyhunter_v3.0, made by Peter Yu.  
 
 > 一個在Pokémon GO中自動點擊色違且iv100的寶可夢的外掛腳本。    
