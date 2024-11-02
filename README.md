@@ -1,6 +1,10 @@
 # new_autoshinyhunter_cmd_version
 new_autoshinyhunter_v3.0, made by Peter Yu.  
 
+另有帶有 GUI 的升級版，[new_autoshinyhunter_gui_version][12]。
+
+[12]: https://github.com/peter890331/new_autoshinyhunter_gui_version
+
 > 一個在Pokémon GO中自動點擊色違且iv100的寶可夢的外掛腳本。    
 > A game bot script that automatically clicks and only filters to those pokémons that is shiny and iv100 in Pokémon GO.
 >
