@@ -20,6 +20,8 @@ new_autoshinyhunter_v3.0, made by Peter Yu.
 ## Foreword
 In Pokémon Go, beyond your pokémon’s CP (Combat Power), all your caught pokémons have semi-hidden base stats called individual values, or IVs. IVs determine how strong a Pokémon can potentially get. For example, a perfect IV Chansey will have a higher CP at its maxed out level, as opposed to a Chansey with only so-so IVs. There are just three stats to worry about: Attack, Defense, and Stamina, each of which maxes out at 15, and the pokémon with all three stats of 15 is called the iv100 pokémon, it means that this pokémon is the strongest in the same kind of pokémons. In addition, shiny pokémons are rare variants of pokémons that are differently colored than other pokémons of their species. In the game, the chance of having iv100 pokémons on the map is already very low, not to mention that it is also a shiny pokémon, so can see how difficult it is to obtain a pokémon with these two characteristics from the general game method.
 
+---
+
 ## Overview
 This game bot script can fully automatically send your game position to any location in the world where the specified iv100 pokémon appear, and click on the pokémon to determine whether it is a shiny, if not, then continue to try in the whole world, if yes, stop the script and wait for manual capture.    
 
@@ -37,6 +39,8 @@ Equipment and Software Requirements:
 [5]: https://github.com/openatx/uiautomator2
 [6]: https://discord.com/
 [7]: https://pokedex100.com/
+
+---
 
 ## How to use, For users
 For users, you can directly download the final version in Releases, it contains a direct executable exe file, and can run it directly after setting some parameters.  
@@ -121,13 +125,17 @@ For users, you can directly download the final version in Releases, it contains 
    5. Enjoy the convenience brought by this scripts 🤓.
       - Notice that the UIAUTOMATOR of AtxAgent should be activated automatically when the script starts to run, but sometimes it doesn't work, so if you observe that the script doesn't click on the screen, you need to run the UIAUTOMATOR manually again. Press "刷新 服务 状态" in the ATX app, and if it displays {"running":false}, press "启动 UIAUTOMATOR", then can go back to Pokemon Go.
 
+---
+
 ## Make updates, For Developers or the future ?
  - This script use my current phone (RMX2111) for testing, if using different brand or type of phones, when clicking on the screen, may be due to differences in screen size or resolution, resulting in a distorted click position, so in the future, it may be possible to add functions to adapt to different screens.
  - Now the script uses template images in the template folder for image recognition to determine which screen it is on, but sometimes when click on the wrong target, the script will still continue, for example, when click on Team Rockets, for unknown reasons, it does not detect, no return to the map as soon as possible may lose time, this will be a weakness that can be rethought to improve.
  - During the Halloween event, all PokeStops will turn to orange color, which will cause all PokeStops to be unrecognizable when clicked on, because those are rely on the blue color for recognition, so this could lead to an error when script executing.
  - Add coords crawler of donor channels, now only free-to-use channels are supported, because I'm poor, can't afford to sponsor.
 
-## Some screen recording and screenshots when using
+---
+
+## Some examples when using
 These videos are the gains of my actual use for a period of time, as evidenced by the videos.
 
 (Click in to download to watch the full video.)
@@ -177,6 +185,9 @@ And then an update (2023/11/13) for use on Halloween.
 <img src= "https://github.com/peter890331/new_autoshinyhunter/blob/figures/13.png" width="100px">
 
 (Unowns was captured using another script that I written previously, which was used to collect all kinds of Unowns.)
+
+---
+
 ## Notes
 ### scrcpy
 scrcpy ([Github][2], [scrcpy-win64-v2.0 download link][3]), this application mirrors Android devices connected via USB or over TCP/IP, and allows to control the device with the keyboard and the mouse of the computer.  
@@ -205,7 +216,9 @@ And a traditional Chinese tutorial on [巴哈姆特][10].
 [11]: https://github.com/neilchennc/WindowThumbnail/releases/download/v1.0/WindowThumbnail-v1.0.exe
 
 ### PyInstaller
-If there are updates to this script in the future, can use PyInstaller to package the .py file into an .exe file, use 'pyinstaller -F XXX.py' command.
+If there are updates to this script in the future,    
+can use PyInstaller to package the .py file into an .exe file, use 'pyinstaller -F XXX.py' command,    
+to add your own icon, use 'pyinstaller --onefile --windowed --icon=icon.ico XXX.py' command.
 
 ---
 
