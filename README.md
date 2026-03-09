@@ -14,6 +14,8 @@ new_autoshinyhunter_v3.0, made by Peter Yu.
 ### ❗ WARNING: Practice programming only, please do not use it to cheat on the game!     
 ### The consequences are your own! I will not be responsible for any law liability to this content. ❗    
  <img src= "https://github.com/peter890331/new_autoshinyhunter/blob/figures/icon.png" width="300px">
+
+---
  
 ## Foreword
 In Pokémon Go, beyond your pokémon’s CP (Combat Power), all your caught pokémons have semi-hidden base stats called individual values, or IVs. IVs determine how strong a Pokémon can potentially get. For example, a perfect IV Chansey will have a higher CP at its maxed out level, as opposed to a Chansey with only so-so IVs. There are just three stats to worry about: Attack, Defense, and Stamina, each of which maxes out at 15, and the pokémon with all three stats of 15 is called the iv100 pokémon, it means that this pokémon is the strongest in the same kind of pokémons. In addition, shiny pokémons are rare variants of pokémons that are differently colored than other pokémons of their species. In the game, the chance of having iv100 pokémons on the map is already very low, not to mention that it is also a shiny pokémon, so can see how difficult it is to obtain a pokémon with these two characteristics from the general game method.
@@ -119,7 +121,6 @@ For users, you can directly download the final version in Releases, it contains 
    5. Enjoy the convenience brought by this scripts 🤓.
       - Notice that the UIAUTOMATOR of AtxAgent should be activated automatically when the script starts to run, but sometimes it doesn't work, so if you observe that the script doesn't click on the screen, you need to run the UIAUTOMATOR manually again. Press "刷新 服务 状态" in the ATX app, and if it displays {"running":false}, press "启动 UIAUTOMATOR", then can go back to Pokemon Go.
 
- 
 ## Make updates, For Developers or the future ?
  - This script use my current phone (RMX2111) for testing, if using different brand or type of phones, when clicking on the screen, may be due to differences in screen size or resolution, resulting in a distorted click position, so in the future, it may be possible to add functions to adapt to different screens.
  - Now the script uses template images in the template folder for image recognition to determine which screen it is on, but sometimes when click on the wrong target, the script will still continue, for example, when click on Team Rockets, for unknown reasons, it does not detect, no return to the map as soon as possible may lose time, this will be a weakness that can be rethought to improve.
